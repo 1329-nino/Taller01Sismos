@@ -1,2 +1,2 @@
-Taller 01 de Sismos
-Version Inicial
+Taller 01 de Sismos 
+Finalizado
