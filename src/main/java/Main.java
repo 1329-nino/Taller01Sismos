@@ -40,6 +40,7 @@ public class Main {
                 case 3: {
                     var arreglo = llenarArreglo(crearArreglo());
                     enviarSMS(arreglo);
+                    break;
                 }
 
                 case 4:
@@ -112,7 +113,7 @@ public class Main {
 
     public static String darEntrada() {
 
-        System.out.println("Ingrese un número decimal");
+        System.out.println("Ingrese una opción");
         return new Scanner(System.in).nextLine();
     }
 
@@ -121,7 +122,7 @@ public class Main {
         try {
             return Integer.parseInt(darEntrada());
         } catch (NumberFormatException e) {
-            System.err.println("ERROR: vuelva a ingresar el número");
+            System.err.println("ERROR: vuelva a ingresar la opción");
             return ingresarEntrada();
         }
     }
